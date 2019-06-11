@@ -1,0 +1,137 @@
+.azexo.az-container {
+    /*overflow: hidden;*/
+    z-index: 1;
+}
+
+.az-element {
+    position: relative;
+}
+
+.az-layers {
+    display: inline-block;
+    /*overflow: hidden;*/
+    width: 100%;
+}
+
+.az-layers > .az-ctnr {
+    position: relative;
+    margin: auto;
+}
+.az-layers > .az-ctnr > .az-element {
+    position: absolute !important;
+}
+
+.az-gallery ul{
+    margin: 0;
+    padding: 0;
+}
+
+.az-gallery ul li {
+    list-style: none;
+    padding: 0;
+    background-image: none;
+    margin: 0;
+}
+
+.az-element .modal-backdrop, .az-element .ax-modal-backdrop {
+    z-index: 200;
+}
+
+.az-popup-ctnr {
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    left: 50%;
+    top: 50%;
+    width: 101%;
+    z-index: 210;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.az-popup > img, .az-popup > span {
+    cursor: pointer;
+}
+
+.az-popup-close {
+    cursor: pointer;
+}
+
+
+.affix, .ax-affix {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;    
+}
+
+.navbar, .ax-navbar {
+    z-index: 6;
+}
+
+.progress, .ax-progress {
+    overflow: visible;
+}
+div.panel-group .panel, div.ax-panel-group .ax-panel {
+    overflow: visible;
+}
+
+.circliful {
+    margin: auto;
+}
+.glyphicon, .ax-glyphicon {
+    font-family: 'Glyphicons Halflings' !important;
+}
+
+.az-grid > ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.az-grid > ul > li{
+    margin: 0px;
+}
+
+.az-item {
+    float: left;
+}
+
+.az-image [id*="molbars"] {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.azexo button.fa {
+    font-family: FontAwesome;
+}
+
+.az-presentation .pagination, .az-presentation .ax-pagination {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    z-index: 100;
+    -moz-transform: translate(-50%, 0%);
+    -o-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);    
+}
+
+.az-container:not(.azexo-editor) .az-step {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.az-step.step.active {
+    z-index: 1;
+}
+.az-step.step:not(.active) {
+    z-index: 0;
+}
+
+div.az-link {
+    cursor: pointer;
+}

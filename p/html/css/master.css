@@ -1,0 +1,41 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project: Building Agency
+Version: 1.0
+Assigned to: Alex Zaymund
+Primary use: Portfolio and agency
+-------------------------------------------------------------------*/
+
+
+/* LIBRARIES CSS */
+@import url('bootstrap.css');
+@import url('animate.css');
+
+/* FONTS*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700|Lato:400,700,300);
+@import url('../fonts/icomoon/style.css');
+@import url('../fonts/simple/simple-line-icons.css');
+@import url('../fonts/flaticon/flaticon.css');
+@import url('../fonts/font-awesome/css/font-awesome.min.css');
+
+
+/* PLUGIN CSS */
+@import url('../plugins/sliderpro/css/slider-pro.min.css');
+@import url('../plugins/isotope/isotope.css');
+@import url('../plugins/magnific/magnific-popup.css');
+@import url('../plugins/yamm/yamm.css');
+@import url('../plugins/owl-carousel/owl.carousel.css');
+@import url('../plugins/owl-carousel/owl.theme.css');
+@import url('../plugins/owl-carousel/owl.transitions.css');
+
+/* CUSTOM CSS */
+@import url('theme.css');
+@import url('responsive.css');
+@import url('custom.css');
+@import url('debugging.css');
+
+
+
+
+

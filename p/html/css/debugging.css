@@ -1,0 +1,41 @@
+
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+/* Debugged CSS  */
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media (min-width:992px) {
+    
+.slide-menu-only-mobile .main-menu {
+    float: right;
+}
+
+
+.slide-menu-only-mobile .main-menu>li {
+    right: 0;
+}
+
+.slide-menu-only-mobile .hamburger{
+    display: none;
+}
+    
+    }
+
+
+  ul.slide-menu-child > li {
+    list-style: outside none none;
+}
+
+
+
+.hamburger.is-open {
+    margin-left: -40px;
+    margin-right: 15px;
+    position: fixed;
+    top: 10px;
+}
+
+.original {
+    max-width: 520px !important;
+}
+
